@@ -1,0 +1,54 @@
+.bg-black {
+    background-color: black;
+}
+
+.text-white{
+    color: white;
+}
+
+.gradient-text {
+    font-family: Arial, sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #BBAFFF, #A0055D); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    text-transform: capitalize;
+  }
+
+.text-28{
+    font-size: 28px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.spinning {
+    animation: spin 3s cubic-bezier(0.17, 0.67, 0.83, 0.67) forwards;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(720deg); } 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+html, body {
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+
+.container {
+    max-width: 100%; 
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
