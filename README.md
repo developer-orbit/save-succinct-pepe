@@ -1,1 +1,1 @@
-# save-succinct-pepe
+Bullet roulette game for Succinct Project
